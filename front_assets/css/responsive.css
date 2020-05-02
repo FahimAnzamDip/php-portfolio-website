@@ -1,0 +1,334 @@
+/* =================================== */
+/*  Responsive Styles 
+/* =================================== */
+@media (max-width: 1024px) {
+  .banner-section {
+    min-height: 768px;
+  }
+  .banner-section .banner-left h1 {
+    font-size: 45px !important;
+  }
+
+  .banner-section2 {
+    background-size: contain !important;
+    max-height: 560px !important;
+  }
+  .banner-section2 div.fullscreen {
+    height: 500px !important;
+  }
+  .banner-section2 .banner-left h1 span {
+    font-size: 42px;
+  }
+
+  .banner-section3 {
+    background-size: contain !important;
+    max-height: 560px !important;
+  }
+  .banner-section3 div.fullscreen {
+    height: 500px !important;
+  }
+
+  .header-left h1 {
+    font-size: 35px !important;
+  }
+
+  .single-stat {
+    margin-bottom: 30px;
+  }
+
+  .about-right h1 {
+    font-size: 30px;
+  }
+  .about-right .primary-btn {
+    min-width: 130px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .single-feature h3 {
+    font-size: 22px;
+  }
+
+  .contact-wrap h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .banner-section .banner-left h1 {
+    font-size: 40px !important;
+  }
+
+  .header-left {
+    text-align: center !important;
+  }
+  .header-left h1 {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .header-left h1 br {
+    display: none;
+  }
+
+  .header-left,
+  .testimonial-left {
+    margin-bottom: 50px;
+  }
+
+  .about-section .row {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+  .about-section .about-left {
+    margin-bottom: 30px;
+  }
+
+  .blog-section .primary-btn {
+    margin-top: 0px;
+  }
+
+  .testimonial-left {
+    text-align: center;
+  }
+  .testimonial-left p {
+    margin: 0 auto;
+  }
+
+  .testimonial-right h2 {
+    text-align: center;
+  }
+  .testimonial-right .owl-dots {
+    text-align: center;
+  }
+
+  .price-left {
+    text-align: center;
+  }
+  .price-left p {
+    margin: 0 auto !important;
+  }
+
+  .price-right {
+    margin-top: 80px;
+  }
+
+  .skill-left {
+    margin-bottom: 30px;
+  }
+
+  .dload-btn {
+    text-align: left !important;
+    margin-top: 30px;
+  }
+  .dload-btn .primary-btn:first-child {
+    margin-left: 0px;
+  }
+
+  .about-right .primary-btn {
+    margin-bottom: 10px !important;
+  }
+
+  .single-blog {
+    margin-bottom: 30px;
+  }
+
+  .contact-wrap {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+  .contact-wrap h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .contact-wrap h3,
+  .contact-wrap h4 {
+    margin-bottom: 30px;
+  }
+
+  .sidebar-wrap {
+    margin-top: 30px;
+  }
+
+  .form-cols {
+    margin-bottom: 30px;
+  }
+
+  .footer-section .footer-left {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+  .footer-section .footer-left .copyright-text {
+    text-align: center !important;
+  }
+  .footer-section #social {
+    text-align: center;
+  }
+  .footer-section #social li:first-child a {
+    margin-left: 0px;
+  }
+  .footer-section .footer-menu {
+    text-align: center;
+  }
+  .footer-section .footer-menu li:first-child {
+    padding-left: 0px;
+  }
+  .footer-section .footer-cols {
+    margin-bottom: 30px;
+  }
+  .footer-section .footer-cols:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-section {
+    min-height: 680px !important;
+  }
+
+  .banner-section2 {
+    background: #fff !important;
+  }
+
+  .banner-section3 {
+    background: #fff;
+  }
+  .banner-section3 .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner-section3 .row .banner-left p {
+    max-width: 100%;
+    color: #000;
+  }
+}
+@media (max-width: 767px) {
+  .banner-section .banner-left {
+    text-align: center !important;
+    margin-bottom: 40px;
+  }
+  .banner-section .banner-right {
+    padding-top: 40px;
+  }
+
+  .banner-section2 p {
+    color: #000;
+  }
+
+  .featured-section .section-title {
+    margin-bottom: 30px;
+  }
+
+  .single-wrap {
+    margin-bottom: 30px;
+  }
+  .single-wrap:last-child {
+    margin-bottom: 0px;
+  }
+
+  .single-blog-post .post-details h1 {
+    font-size: 25px;
+  }
+
+  .contact-section .section-title {
+    padding-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .contact-wrap h3,
+  .contact-wrap h4 {
+    text-align: center;
+  }
+
+  .contact-form-wrap {
+    padding: 30px;
+  }
+  .contact-form-wrap textarea {
+    height: 125px;
+  }
+}
+@media (max-width: 736px) {
+  .banner-section2 {
+    background-size: cover !important;
+  }
+}
+@media (max-width: 576px) {
+  .blog-section .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .price-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+  .price-right .main {
+    margin: 0px !important;
+  }
+
+  .featured-section .section-title {
+    margin-top: 30px;
+  }
+
+  .replay-comment {
+    margin-left: -80px;
+  }
+
+  .team-section .team-content {
+    width: 90.5%;
+  }
+
+  .single-team {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-cols, .copyright-text, #social {
+    text-align: center !important;
+  }
+}
+@media (max-width: 480px) {
+  .single-counter h2 {
+    font-size: 30px !important;
+  }
+
+  .dload-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .dload-btn .primary-btn {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .dload-btn .primary-btn:last-child {
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 417px) {
+  .page-top-banner h1 {
+    font-size: 42px;
+  }
+
+  .single-blog-post .post-details h1 {
+    font-size: 20px;
+  }
+
+  .social-widget ul li a {
+    margin-bottom: 10px;
+  }
+
+  .banner-section3 .banner-left h1 span, .banner-section2 .banner-left h1 span {
+    font-size: 35px;
+  }
+}
+
+
